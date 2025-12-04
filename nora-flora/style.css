@@ -65,5 +65,21 @@
 
         #block3 {
         background-color: #283F25;
-        padding: 6%;
+        padding: 1%;
+        }
+        .contact-left {
+
+            text-align: left;
+            padding-top: ;
+            color: white;
+            font-family: Arial;
+            font-size: 25px;
+            padding-right: 5%;
+        }
+        .contact-right {
+            text-align:right;
+            color: white;
+            font-family: Arial;
+            font-size: 22px;
+            padding-left: 5%;
         }
