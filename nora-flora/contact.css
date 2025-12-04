@@ -11,6 +11,9 @@
         }
             h1 {
   color: white;
+  text-align: center;
+  font-size: xx-large;
+  tex;
             }
   p {
     color: white;
@@ -27,7 +30,6 @@
   #navbar{
             background-color: #283F25;
             padding: 0.5%;
-            min-width: 100%;
             text-align: center;
             font-family:Arial, Helvetica, sans-serif ;
             
@@ -55,6 +57,6 @@
         #line {
             background-color: #D9EDB5;
             padding: 1%;
-            min-width: 100%;
-        };
+           
+        }
 
