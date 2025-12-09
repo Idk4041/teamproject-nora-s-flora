@@ -1,3 +1,5 @@
+/* General */
+
 .logo {
     width: 8%;
     height: auto;
@@ -69,19 +71,19 @@
         }
         .contact-left {
 
-        
+            text-align:left;
             color: white;
             font-family: Arial;
             font-size: 20px;
-            padding-right: 5%;
+            padding-right: 1%;
         }
         .contact-right {
-          
+            text-align:right;
             align-items: center;
             color: white;
             font-family: Arial;
             font-size: 20px;
-            padding-left: 5%;
+            padding-left: 1%;
         }
         .contact-head {
             text-align:right;
