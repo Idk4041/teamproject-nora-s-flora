@@ -69,17 +69,24 @@
         }
         .contact-left {
 
-            text-align: left;
-            padding-top: ;
+        
             color: white;
             font-family: Arial;
-            font-size: 25px;
+            font-size: 20px;
             padding-right: 5%;
         }
         .contact-right {
+          
+            align-items: center;
+            color: white;
+            font-family: Arial;
+            font-size: 20px;
+            padding-left: 5%;
+        }
+        .contact-head {
             text-align:right;
             color: white;
             font-family: Arial;
-            font-size: 22px;
+            font-size: 25px;
             padding-left: 5%;
         }
