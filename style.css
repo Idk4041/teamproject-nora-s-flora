@@ -140,7 +140,7 @@ body {
     display: flex;
     align-content: right;
     box-sizing: border-box;
-    
+    margin-left: 20%;
 }
 .introtitel{
     color: white;
