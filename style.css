@@ -95,7 +95,7 @@ body {
 
 #block2 {
     background-color: #3F593C;
-    padding: 14%;
+    padding: 10px;
     }
 
 #block3 {
@@ -112,31 +112,44 @@ body {
     font-weight: 100;
     }
 
-.intro {
+.intro{
     display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    padding: 60px;
+    flex-direction:column;
+    justify-content: right;
+    align-items: right;
+    text-align: left;
     box-sizing: border-box;
 }
-
 .intro-text {
     max-width: 60%;
-    
+    font-family: "Inter", sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
 }
 
 
 .selfie {
     height: 320px;
     border-radius: 20px;
-    position: relative;
+    width: 200px;
+    display: flex;
+    align-content: right;
+    box-sizing: border-box;
     
 }
 .introtitel{
     color: white;
     font-family: "Inter", sans-serif;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    
 }
 
 /* assortiment */
