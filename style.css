@@ -116,31 +116,31 @@ body {
 .container {
     width: 60%;
 display: flex;
-justify-content: space-between;
 padding: 40px;
 
 
 }
 .container img {
-    width: 300px;
+    width: 320px;
+    height: 400px;
     border-radius: 15px;
-    
-    ;
+   margin-left: 300px;
 }
 .container h1 {
-    margin: 0;
+
     font-family: "Inter", sans-serif;
     color: white;
     font-size: 40px;
     text-align: center;
-    
+    margin-left: 200px;
 }
 .container p {
     color: white;
     font-family: "Inter", sans-serif;
     text-align: center;
-    margin-right: 15px;
-    font-size: 16px;
+    margin-left: 150px;
+    width: 600px;
+    font-size: 18px;
 }
 
 /* assortiment */
@@ -152,14 +152,73 @@ padding: 40px;
 #contact {
   background-color: #d9edb5;
   padding: 30px 0px;
-}
-.contact-h1 {
-  color: white;
-  text-align: center;
-  font-size: xx-large;
-
-}
-
-.contact-p {
+    font-family: "Inter", sans-serif;
     color: white;
-} 
+}
+
+
+.contactBox {
+  background-color: #3f593c;
+  margin: 0px;
+  padding: 5px;
+}
+
+#contactFormulier {
+  display: flex;
+  background-color: #3f593c;
+  margin-left: 10px;
+  padding: 0 100px;
+  gap: 100px;
+  font-size: 14px;
+}
+#contact  p {
+    color: white;
+    font-family: "Inter", sans-serif;
+    text-align: left;
+    max-width: 400px;
+    font-size: 16px;
+}
+#contactOpnemen {
+  text-align: center;
+  font-size: 28px;
+}
+
+#vragenEnOpmerkingen {
+  resize: none;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #f7feea; 
+  margin-left: 440px;
+  width: 315px;
+}
+
+#contactInformatie {
+  display: flex;
+  gap: 280px;
+  margin-top: 10px;
+}
+
+#contactGegevens {
+  display: flex;
+  gap: 10px;
+  margin-left: 120px;
+}
+
+#email {
+    background-color: #f7feea;
+    border-radius: 8px;
+    display: flex;
+    padding: 7px;
+    width: 322px;
+    margin-left: 340px;
+
+}
+
+#contactButton {
+    background-color: #d9edb5;
+    border-radius: 15px;
+    justify-self: center;
+    margin: 10px 0 0 375px;
+    padding: 7px;
+    width: 280px;
+}
